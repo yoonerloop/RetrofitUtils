@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tv_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get请求" />
+
+    <Button
+        android:id="@+id/tv_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post请求" />
+
+    <Button
+        android:id="@+id/tv_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文件下载" />
+
+    <Button
+        android:id="@+id/tv_text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消下载" />
+
+    <Button
+        android:id="@+id/tv_text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单文件上传" />
+
+
+    <Button
+        android:id="@+id/tv_text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多文件上传" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

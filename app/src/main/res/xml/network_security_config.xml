@@ -1,0 +1,10 @@
+<network-security-config>
+    <!-- Trust user added CAs while debuggable only -->
+    <debug-overrides>
+        <trust-anchors>
+            <!--信任用户安装的证书-->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
